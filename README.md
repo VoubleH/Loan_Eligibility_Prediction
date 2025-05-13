@@ -3,10 +3,11 @@
 This project aims to predict whether a loan applicant is eligible for loan approval based on financial and personal information, using a Logistic Regression model.
 
 ## 📌 Overview
-- Dataset with over 1 million rows and 100+ columns
+- Dataset with over 1.3 million rows and 151 columns
+- Dataset Link: https://www.kaggle.com/datasets/wordsforthewise/lending-club/data
 - Preprocessing techniques including:
   - Handling missing values
-  - Cleaning and converting categorical features (e.g., `emp_length`)
+  - Cleaning and converting categorical features 
   - One-hot encoding for categorical variables
 - Logistic Regression model
 - Threshold tuning and performance comparison
@@ -16,18 +17,6 @@ This project aims to predict whether a loan applicant is eligible for loan appro
 - Pandas, NumPy
 - Matplotlib, Seaborn
 - Scikit-learn
-
-## 📂 Folder Structure
-```
-Loan_Eligibility_Prediction/
-├── notebook/
-│   └── Loan_Eligibility_Prediction.ipynb
-├── data/
-├── src/
-├── requirements.txt
-├── README.md
-├── .gitignore
-```
 
 ## 🚀 How to Run
 
