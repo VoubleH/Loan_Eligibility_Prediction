@@ -7,7 +7,6 @@ This project aims to predict whether a loan applicant is eligible for loan appro
 - Preprocessing techniques including:
   - Handling missing values
   - Cleaning and converting categorical features (e.g., `emp_length`)
-  - Outlier filtering using quantiles
   - One-hot encoding for categorical variables
 - Logistic Regression model
 - Threshold tuning and performance comparison
@@ -43,10 +42,10 @@ jupyter notebook notebook/Loan_Eligibility_Prediction.ipynb
 ```
 
 ## 🛠️ Preprocessing Highlights
-- Cleaned `emp_length` column to retain only numeric years
-- Removed extreme outliers in `annual_inc`, `dti`, `revol_util`
+- Cleaned `emp_length` column to retain only number
 - Applied one-hot encoding on categorical features
 - Handled missing values using mean or mode where appropriate
+- Oversampling using SMOTE
 
 ## 📈 Model
 - Trained Logistic Regression using cleaned and encoded dataset
@@ -54,4 +53,4 @@ jupyter notebook notebook/Loan_Eligibility_Prediction.ipynb
 - Adjusted threshold (e.g., 0.4) to optimize prediction sensitivity
 
 ## ✍️ Author
-Ben Roshan D
+Vũ Hoàng Huy
