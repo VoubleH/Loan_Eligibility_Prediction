@@ -38,7 +38,7 @@ jupyter notebook notebook/Loan_Eligibility_Prediction.ipynb
 
 ## 📈 Model
 - Trained Logistic Regression using cleaned and encoded dataset
-- Evaluated performance with accuracy and classification report
+- Evaluated performance with recall, auc - score and confusion matrix
 - Adjusted threshold (e.g., 0.4) to optimize prediction sensitivity
 
 ## ✍️ Author
